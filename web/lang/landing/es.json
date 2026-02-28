@@ -3,5 +3,11 @@
   "nav_books": "libros",
   "nav_contacts": "contactos",
   "hero_tagline": "Donde termina el mapa — comienzan mis historias",
-  "hero_btn_books": "ABRIR LIBROS"
+  "hero_btn_books": "ABRIR LIBROS",
+  "footer_brand": "Alina.Karumanta",
+  "footer_nav_books": "libros",
+  "footer_nav_main": "inicio",
+  "footer_nav_about": "sobre la autora",
+  "footer_credits": "desarrollo web",
+  "footer_copyright": "© 2026 Alina Karumanta"
 }

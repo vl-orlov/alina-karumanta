@@ -3,5 +3,11 @@
   "nav_books": "books",
   "nav_contacts": "contacts",
   "hero_tagline": "Where the map ends — my stories begin",
-  "hero_btn_books": "OPEN BOOKS"
+  "hero_btn_books": "OPEN BOOKS",
+  "footer_brand": "Alina.Karumanta",
+  "footer_nav_books": "books",
+  "footer_nav_main": "main",
+  "footer_nav_about": "about the author",
+  "footer_credits": "website development",
+  "footer_copyright": "© 2026 Alina Karumanta"
 }

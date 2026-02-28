@@ -3,5 +3,10 @@
   "nav_books": "книги",
   "nav_contacts": "контакты",
   "hero_tagline": "Где заканчивается карта — начинаются мои истории",
-  "hero_btn_books": "ОТКРЫТЬ КНИГИ"
-}
+  "hero_btn_books": "ОТКРЫТЬ КНИГИ",
+  "footer_brand":"Алина.Каруманта",
+  "footer_nav_books":"книги",
+  "footer_nav_main":"главная",
+  "footer_nav_about":"об авторе",
+  "footer_credits":"разработка сайта",
+  "footer_copyright":"© 2026 Алина Каруманта"}

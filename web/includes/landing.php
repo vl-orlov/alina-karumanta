@@ -1,5 +1,6 @@
 <!-- HEADER -->
 <div class="main_header" id="main_header">
+  <div class="header_wrap" id="header_wrap">
     <button type="button" class="burger_btn" id="burger_btn" aria-label="Меню" aria-expanded="false" aria-controls="header_nav">
         <span class="burger_line"></span>
         <span class="burger_line"></span>
@@ -7,8 +8,8 @@
     </button>
     <nav class="header_nav" id="header_nav">
         <a href="#about" class="nav_link" data-i18n="nav_about">об авторе</a>
-        <a href="#books" class="nav_link" data-i18n="nav_books">КНИГИ</a>
-        <a href="#contacts" class="nav_link" data-i18n="nav_contacts">КОНТАКТЫ</a>
+        <a onclick="window.location.href='index.php?page=books'" class="nav_link" data-i18n="nav_books">книги</a>
+        <a href="#contacts" class="nav_link" data-i18n="nav_contacts">контакты</a>
     </nav>
     <div class="lang_selector" id="lang_selector" aria-label="Выбор языка">
         <span class="lang_current" id="current_lang">Русский</span>
@@ -16,6 +17,7 @@
             <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
     </div>
+  </div>
 </div>
 <div class="mobile_menu_backdrop" id="mobile_menu_backdrop" aria-hidden="true"></div>
 <!-- HEADER END -->
@@ -27,10 +29,14 @@
     <div class="hero_content">
         <h1 class="hero_title">Alina Karumanta</h1>
         <p class="hero_tagline" data-i18n="hero_tagline">Где заканчивается карта — начинаются мои истории</p>
-        <a href="#books" class="hero_btn" data-i18n="hero_btn_books">ОТКРЫТЬ КНИГИ</a>
+        <a onclick="window.location.href='index.php?page=books'" class="hero_btn" data-i18n="hero_btn_books">ОТКРЫТЬ КНИГИ</a>
     </div>
 </div>
 <!-- HERO END -->
+
+<!-- FOOTER -->
+<?php include "includes/footer.php"; ?>
+<!-- FOOTER END -->
 
 <script>
 (function() {
