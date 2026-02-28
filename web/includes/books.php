@@ -1,13 +1,17 @@
 <!-- HEADER END -->
 <div class="main_header" id="main_header">
     <div class="header_wrap" id="header_wrap">
+        <a href="index.php" class="header_back_btn" aria-label="Назад">
+            <svg class="header_back_icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            <span class="header_back_text" data-i18n="nav_back">Назад</span>
+        </a>
         <div type="button" class="burger_btn" id="burger_btn" aria-label="Меню" aria-expanded="false" aria-controls="header_nav">
             <span class="burger_line"></span>
             <span class="burger_line"></span>
             <span class="burger_line"></span>
         </div>
         <div class="header_nav header_nav_green" id="header_nav">
-            <a href="index.php" class="nav_link nav_link_white" data-i18n="nav_about">об авторе</a>
+            <a onclick="window.location.href='index.php?page=about'" class="nav_link nav_link_white" data-i18n="nav_about">об авторе</a>
             <a href="index.php?page=books" class="nav_link nav_link_white nav_link_active" data-i18n="nav_books">книги</a>
             <a href="index.php?page=books#contacts" class="nav_link nav_link_white" data-i18n="nav_contacts">контакты</a>
         </div>

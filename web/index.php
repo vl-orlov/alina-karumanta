@@ -18,6 +18,7 @@
 SWITCH ( $page ) {
     case 'landing':              include "includes/landing.php";                break;
     case 'books':                include "includes/books.php";                  break;
+    case 'about':                include "includes/about.php";                  break;
     default:                     include "includes/landing.php";                break;
 }
 ?>

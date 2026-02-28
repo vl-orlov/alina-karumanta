@@ -20,7 +20,7 @@
         <nav class="footer_nav">
             <a onclick="window.location.href='index.php?page=books'" class="footer_nav_link" data-i18n="footer_nav_books">книги</a>
             <a onclick="window.location.href='index.php?page=landing'" class="footer_nav_link" data-i18n="footer_nav_main">главная</a>
-            <a onclick="window.location.href='index.php?page='" class="footer_nav_link" data-i18n="footer_nav_about">об авторе</a>
+            <a href="index.php?page=about" class="footer_nav_link" data-i18n="footer_nav_about">об авторе</a>
         </nav>
         <div class="footer_right">
             <a href="https://t.me/xxzzmasl" class="footer_credits" data-i18n="footer_credits" target="_blank" rel="noopener">разработка сайта</a>

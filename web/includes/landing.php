@@ -7,7 +7,7 @@
         <span class="burger_line"></span>
     </button>
     <nav class="header_nav" id="header_nav">
-        <a href="#about" class="nav_link" data-i18n="nav_about">об авторе</a>
+        <a onclick="window.location.href='index.php?page=about'" class="nav_link" data-i18n="nav_about">об авторе</a>
         <a onclick="window.location.href='index.php?page=books'" class="nav_link" data-i18n="nav_books">книги</a>
         <a href="#contacts" class="nav_link" data-i18n="nav_contacts">контакты</a>
     </nav>
