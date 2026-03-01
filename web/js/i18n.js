@@ -9,6 +9,11 @@ async function setLang(page, lang) {
   document.documentElement.lang = lang === 'en' ? 'en' : lang === 'es' ? 'es' : 'ru';
   localStorage.setItem('lang', lang);
 
+  document.querySelectorAll('img[data-src-ru]').forEach(img => {
+    const src = img.getAttribute('data-src-' + lang);
+    if (src) img.src = src;
+  });
+
   try {
     const url = `lang/${page}/${lang}.json`;
     const res = await fetch(url);

@@ -1,10 +1,6 @@
 <!-- HEADER END -->
 <div class="main_header" id="main_header">
     <div class="header_wrap" id="header_wrap">
-        <a href="index.php" class="header_back_btn" aria-label="Назад">
-            <svg class="header_back_icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-            <span class="header_back_text" data-i18n="nav_back">Назад</span>
-        </a>
         <div type="button" class="burger_btn" id="burger_btn" aria-label="Меню" aria-expanded="false" aria-controls="header_nav">
             <span class="burger_line"></span>
             <span class="burger_line"></span>
@@ -15,6 +11,10 @@
             <a href="index.php?page=books" class="nav_link nav_link_white nav_link_active" data-i18n="nav_books">книги</a>
             <a href="index.php?page=books#contacts" class="nav_link nav_link_white" data-i18n="nav_contacts">контакты</a>
         </div>
+        <a href="index.php" class="header_back_btn" aria-label="Назад">
+            <svg class="header_back_icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            <span class="header_back_text" data-i18n="nav_back">Назад</span>
+        </a>
         <div class="lang_selector" id="lang_selector" aria-label="Выбор языка">
             <span class="lang_current" id="current_lang">Русский</span>
             <svg class="lang_arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

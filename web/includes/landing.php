@@ -34,6 +34,52 @@
 </div>
 <!-- HERO END -->
 
+<div class="landing_gradient_section" aria-label="Контент">
+    <div class="landing_gradient_inner">
+        <blockquote class="landing_quote landing_quote_first">
+            <div class="landing_quote_inner">
+                <p class="landing_quote_text" data-i18n="landing_quote1">“ В настоящем странствии встречаешь не только места — встречаешь себя. „</p>
+            </div>
+        </blockquote>
+
+        <div class="landing_books">
+            <h2 class="landing_books_title" data-i18n="landing_my_books">Мои книги</h2>
+            <div class="landing_books_grid">
+                <a href="index.php?page=books" class="landing_book_card">
+                    <img src="img/books/call_paititi_ru.png" data-src-ru="img/books/call_paititi_ru.png" data-src-en="img/books/call_paititi_en.jpeg" data-src-es="img/books/call_paititi_es.jpeg" alt="Странники духа. Зов Пайтити" class="landing_book_cover">
+                </a>
+                <a href="index.php?page=books" class="landing_book_card">
+                    <img src="img/books/tawaintisuyo_ru.jpeg" data-src-ru="img/books/tawaintisuyo_ru.jpeg" data-src-en="img/books/tawaintisuyo_en.jpeg" data-src-es="img/books/tawaintisuyo_es.jpeg" alt="Странники духа. Хранители Тауаинтисуйо" class="landing_book_cover">
+                </a>
+                <a href="index.php?page=books" class="landing_book_card">
+                    <img src="img/books/heart_paititi_ru.jpeg" data-src-ru="img/books/heart_paititi_ru.jpeg" data-src-en="img/books/heart_paititi_en.jpeg" data-src-es="img/books/heart_paititi_es.jpeg" alt="Странники духа. Сердце Пайтити" class="landing_book_cover">
+                </a>
+                <a href="index.php?page=books" class="landing_book_card landing_book_card_center">
+                    <img src="img/books/diary_cat_ru.jpeg" data-src-ru="img/books/diary_cat_ru.jpeg" data-src-en="img/books/diary_cat_en.jpeg" data-src-es="img/books/diary_cat_es.jpeg" alt="Дневник бродячего Кота" class="landing_book_cover">
+                </a>
+            </div>
+        </div>
+
+        <blockquote class="landing_quote landing_quote_second">
+            <div class="landing_quote_inner">
+                <p class="landing_quote_text" data-i18n="landing_quote2">“ Порой перемены приходят не как порыв ветра, а как землетрясение. „</p>
+            </div>
+        </blockquote>
+
+        <div class="landing_about_block">
+            <div class="landing_about_img_wrap">
+                <img src="img/karumanta_landing.png" alt="" class="landing_about_img">
+            </div>
+            <div class="landing_about_text_wrap">
+                <p class="landing_about_p" data-i18n="landing_about_excerpt_1">Каруманта — имя, полученное мною на церемонии Огня в колумбийских джунглях Путумайо. «Каруманта» означает «издалека».</p>
+                <p class="landing_about_p" data-i18n="landing_about_excerpt_2">И правда — для этих земель я пришла издалека: с Уральских гор, где стоят густые леса, где горные реки поят холодной водой, где до сих пор дышат легенды моего народа.</p>
+                <p class="landing_about_p" data-i18n="landing_about_excerpt_3">С детства я мечтала путешествовать по далёким землям и писать книги.</p>
+                <a href="index.php?page=about" class="landing_about_btn" data-i18n="landing_read_more">прочитать больше</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- FOOTER -->
 <?php include "includes/footer.php"; ?>
 <!-- FOOTER END -->

@@ -1,10 +1,6 @@
 <!-- HEADER -->
 <div class="main_header" id="main_header">
     <div class="header_wrap" id="header_wrap">
-        <a href="index.php" class="header_back_btn" aria-label="Назад">
-            <svg class="header_back_icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-            <span class="header_back_text" data-i18n="nav_back">Назад</span>
-        </a>
         <button type="button" class="burger_btn" id="burger_btn" aria-label="Меню" aria-expanded="false" aria-controls="header_nav">
             <span class="burger_line"></span>
             <span class="burger_line"></span>
@@ -15,6 +11,10 @@
             <a href="index.php?page=books" class="nav_link nav_link_white" data-i18n="nav_books">Книги</a>
             <a href="index.php?page=about#contacts" class="nav_link nav_link_white" data-i18n="nav_contacts">Контакты</a>
         </nav>
+        <a href="index.php" class="header_back_btn" aria-label="Назад">
+            <svg class="header_back_icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            <span class="header_back_text" data-i18n="nav_back">Назад</span>
+        </a>
         <div class="lang_selector" id="lang_selector" aria-label="Выбор языка">
             <span class="lang_current" id="current_lang">Русский</span>
             <svg class="lang_arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -56,7 +56,7 @@
                 <p class="about_p" data-i18n="about_p5">Когда-то, ещё ребёнком, я дала себе клятву: однажды отправлюсь в странствие по джунглям с одним рюкзаком за плечами. Но круговорот жизни закрутил меня, и эта клятва затерялась среди повседневности.</p>
                 <p class="about_p" data-i18n="about_p6">Я жила, училась в Нью-Йорке, шла дорогами большого мира — и всё дальше уходила от той девочки, которая мечтала о диких тропах и далёких горизонтах.</p>
             </div>
-            <div class="about_extra_img_wrap">
+            <div class="about_img_wrap">
                 <img src="img/about/karumanta3.png" class="about_extra_img">
             </div>
         </div>
