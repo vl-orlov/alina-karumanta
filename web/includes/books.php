@@ -31,7 +31,7 @@
     <div class="books_bg" style="background-image: url('img/books_background.png');"></div>
     <div class="books_container">
         <div class="book_cover_wrap">
-            <img src="img/books/book_1.png" class="book_cover_img">
+            <img src="img/books/call_paititi_ru.png" data-src-ru="img/books/call_paititi_ru.png" data-src-en="img/books/call_paititi_en.jpeg" data-src-es="img/books/call_paititi_es.jpeg" alt="Странники духа. Зов Пайтити" class="book_cover_img">
         </div>
         <div class="book_info">
             <p class="book_quote" data-i18n="book1_quote">Иногда самый далёкий путь начинается с внутреннего зова.</p>
@@ -48,7 +48,7 @@
     <div class="books_bg" style="background-image: url('img/books_background.png');"></div>
     <div class="books_container">
         <div class="book_cover_wrap">
-            <img src="img/books/book_2.png" class="book_cover_img">
+            <img src="img/books/tawaintisuyo_ru.jpeg" data-src-ru="img/books/tawaintisuyo_ru.jpeg" data-src-en="img/books/tawaintisuyo_en.jpeg" data-src-es="img/books/tawaintisuyo_es.jpeg" alt="Странники духа. Хранители Тауаинтисуйо" class="book_cover_img">
         </div>
         <div class="book_info">
             <p class="book_quote" data-i18n="book2_quote">Путешествие, в котором каждый шаг открывает живой мир Тауаинтисуо</p>
@@ -66,7 +66,7 @@
     <div class="books_bg" style="background-image: url('img/books_background.png');"></div>
     <div class="books_container">
         <div class="book_cover_wrap">
-            <img src="img/books/book_3.png" class="book_cover_img">
+            <img src="img/books/heart_paititi_ru.jpeg" data-src-ru="img/books/heart_paititi_ru.jpeg" data-src-en="img/books/heart_paititi_en.jpeg" data-src-es="img/books/heart_paititi_es.jpeg" alt="Странники духа. Сердце Пайтити" class="book_cover_img">
         </div>
         <div class="book_info">
             <p class="book_quote" data-i18n="book3_quote">Путь сквозь тишину джунглей, где каждый знак имеет значение</p>

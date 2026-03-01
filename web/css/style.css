@@ -610,12 +610,12 @@ body {
   flex-shrink: 0;
 }
 .book_cover_img {
-  max-width: 280px;
+  max-width: 240px;
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 4px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25), 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .book_info {
   flex: 1;
@@ -671,7 +671,7 @@ body {
     gap: 32px;
   }
   .book_cover_img {
-    max-width: 220px;
+    max-width: 200px;
   }
   .book_quote {
     font-size: 20px;
