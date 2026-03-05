@@ -38,12 +38,12 @@
                 <p class="about_p" data-i18n="about_p2">«Каруманта» означает «издалека». И правда — для этих земель я пришла издалека: с Уральских гор, где стоят густые леса, где горные реки поят холодной водой, где до сих пор дышат легенды моего народа.</p>
             </div>
             <div class="about_img_wrap about_img_right">
-                <img src="img/about/karumanta1.png" class="about_img">
+                <img src="img/about/karumanta1.jpeg" class="about_img">
             </div>
         </div>
         <div class="about_block about_block_2">
             <div class="about_img_wrap about_img_left">
-                <img src="img/about/karumanta2.png" class="about_img">
+                <img src="img/about/karumanta2.jpeg" class="about_img">
             </div>
             <div class="about_text">
                 <p class="about_p" data-i18n="about_p3">С детства я мечтала путешествовать по далёким землям и писать книги. Я выросла в маленьком селе, где мир казался тесным, но стоило открыть книгу — и границы исчезали. Истории были моими проводниками, друзьями, дорогами в другие миры. Перевернув страницу, я отправлялась в путь без билетов, без границ.</p>
@@ -57,7 +57,7 @@
                 <p class="about_p" data-i18n="about_p6">Я жила, училась в Нью-Йорке, шла дорогами большого мира — и всё дальше уходила от той девочки, которая мечтала о диких тропах и далёких горизонтах.</p>
             </div>
             <div class="about_img_wrap">
-                <img src="img/about/karumanta3.png" class="about_extra_img">
+                <img src="img/about/karumanta3.jpeg" class="about_extra_img">
             </div>
         </div>
 
